@@ -170,7 +170,6 @@ webpack.production.config.js为webpack生产环境下的配置文件，package.j
 
 #### 项目展示
 ![](http://kongjunchao.com/app/images/img_01.png)
-![](http://kongjunchao.com/app/images/img_02.png)
 ![](http://kongjunchao.com/app/images/img_03.png)
 ![](http://kongjunchao.com/app/images/img_04.png)
 ![](http://kongjunchao.com/app/images/img_05.png)
