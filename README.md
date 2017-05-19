@@ -1,9 +1,10 @@
-## BI PC 项目
+## 数据可视化BI系统
 
 #### 开发环境
 * Node 6.9.4
 
 #### 开发工具
+* Sublime
 * HBuilder 7.6.2
 
 #### 框架
@@ -14,9 +15,13 @@
 
 #### 插件
 * 根目录下-package.json
+* 通过“npm install”自动安装package.json中的所有依赖插件，需要注意的是，各插件工具的版本一直在迭代更新，会出现不兼容的可能性，有时需要自己修改下webpack配置文件中的一些语法规则，install的时候会有报错提示，这个坑我也踩了很多遍了，推荐自己去看一下webpack的使用方法，按照依赖包重新装一遍
 
 #### 打包工具
 * Webpack 1.13.3
+
+#### 数据请求
+* 项目是使用Fetch作为请求方式，但该项目源码只是初期原型，并没有涉及到真正的请求接口，仅有部分随机生成的模拟数据供展示，需要自己写一下这块内容
 
 #### 预览地址
 [点击](http://kongjunchao.com/app/bi_pc/login.html)
@@ -162,3 +167,10 @@ webpack.production.config.js为webpack生产环境下的配置文件，package.j
 		周报
 			周报详情
 			week_report_details.js
+
+#### 项目展示
+![](http://kongjunchao.com/app/images/img_01.png)
+![](http://kongjunchao.com/app/images/img_02.png)
+![](http://kongjunchao.com/app/images/img_03.png)
+![](http://kongjunchao.com/app/images/img_04.png)
+![](http://kongjunchao.com/app/images/img_05.png)
