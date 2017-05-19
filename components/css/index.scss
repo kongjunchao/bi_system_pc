@@ -1,0 +1,125 @@
+.main-box{
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 15px;
+	.top-nav{
+		width: 100%;
+		height: 25px;
+		line-height: 25px;
+		background-color: #f7f7f7;
+		text-indent: 10px;
+	}
+	.div-1{
+		width: 100%;
+		height: 35px;
+		line-height: 35px;
+		margin-top: 10px;
+		overflow: hidden;
+		> .span-1{
+		    height: 100%;
+		    display: inline-block;
+		    vertical-align: top;
+		    margin-left: 20px;
+		    margin-right: 8px;
+		}
+		.ant-input-wrapper{
+		    display: inline-block;
+		    margin-top: 4px;
+		}
+		.ant-btn{
+		    vertical-align: top;
+		    margin-top: 4px;
+		    margin-left: 15px;
+		    span{
+		        color: #FFF;
+		    }
+		}
+		.ant-select{
+		    vertical-align: top;
+		    margin-top: 4px;
+		}
+		.ant-calendar-picker{
+		    vertical-align: top;
+		}
+		.right-box{
+		    float: right;
+		    .anticon{
+		        font-size: 18px;
+		        &:hover{
+		            color: #ff6355;
+		        }
+		    }
+		}
+	}
+	.ul-1{
+		width: 100%;
+		height: 100px;
+		font-size: 0;
+		margin-top: 15px;
+		li{
+			width: 13%;
+			height: 100%;
+			display: inline-block;
+			box-sizing: border-box;
+			background-color: #43bab1;
+			font-size: 14px;
+			vertical-align: top;
+			border-radius: 5px;
+			transition: transform .6s;
+			&:hover{
+                background-color: #46c6bc;
+                transform: translateY(-10%) scale(1.1);
+            }
+			&:not(:nth-child(1)){
+				margin-left: 1.5%;
+			}
+			span{
+				float: right;
+				margin-right: 5px;
+				color: #FFF;
+			}
+			h2{
+				width: 100%;
+				height: 40px;
+				line-height: 40px;
+				margin-top: 22px;
+				text-align: center;
+				font-size: 22px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				color: #FFF;
+			}
+			p{
+				text-align: center;
+				color: #FFF;
+			}
+		}
+	}
+	.chart-box{
+		width: 100%;
+		display: flex;
+		display: -webkit-flex;
+		flex-flow: row wrap;
+		align-content: flex-start;
+		margin-top: 50px;
+		padding-bottom: 50px;
+		overflow: hidden;
+		.chart-div{
+			height: 340px;
+			flex: 0 0 48%;
+			box-sizing: border-box;
+			overflow: hidden;
+			&:nth-child(2n+2){
+				margin-left: 4%;
+			}
+			&:nth-child(n+3){
+				margin-top: 50px;
+			}
+			> div{
+			    width: 100%;
+			    height: 100%;
+			}
+		}
+	}
+}

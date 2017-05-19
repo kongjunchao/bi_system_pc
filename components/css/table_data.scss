@@ -1,0 +1,70 @@
+.table-box{
+    width: 100%;
+    margin-top: 20px;
+    &:nth-last-of-type(1){
+        margin-bottom: 30px;
+    }
+    > h2{
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        text-indent: 5px;
+        font-weight: bold;
+        .anticon{
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+    > p{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        > span{
+            display: inline-block;
+            width: 90px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            vertical-align: top;
+            background-color: #43bab1;
+            margin-left: 10px;
+            border-radius: 5px;
+            color: #FFF;
+            &:hover{
+                background-color: #ff6355;
+                cursor: pointer;
+            }
+            &.active{
+                background-color: #ff6355;
+            }
+        }
+    }
+    .ant-table-thead tr th{
+        text-align: center;
+    }
+    .table-a{
+        color: #2db7f5;
+    }
+    .table-action{
+        a{
+            color: #2db7f5;
+            padding: 0 8px;
+        }
+    }
+    .action-column{
+        text-align: center;
+    }
+    .ant-table-bordered .ant-table-thead > tr > th, .ant-table-bordered .ant-table-tbody > tr > td{
+        white-space: nowrap;
+    }
+}
+.ant-popover .ant-btn-primary span{
+    color: #FFF;
+}
+.ant-modal-content .ant-btn-primary span{
+    color: #FFF;
+}
+.ant-modal-footer .ant-btn .anticon{
+    color: #FFF;
+}

@@ -1,0 +1,49 @@
+.collapse-box{
+    .ant-collapse-header{
+        padding-left: 15px !important;
+        .arrow{
+            left: 0 !important;
+        }
+    }
+    .ant-collapse-content-box{
+        padding-top: 0 !important;
+    }
+    .ul-3{
+        width: 100%;
+        margin-top: 10px;
+        li{
+            width: 100%;
+            height: 28px;
+            line-height: 28px;
+            > .span-1{
+                display: inline-block;
+                height: 100%;
+                vertical-align: top;
+                margin-right: 8px;
+                &:nth-of-type(n+2){
+                    margin-left: 14px;
+                }
+            }
+            .ant-input-wrapper{
+                display: inline-block;
+            }
+            .ant-checkbox-group{
+                display: inline-block;
+                margin-left: 15px;
+            }
+            .ant-select, .ant-input-number{
+                vertical-align: top;
+            }
+            &:nth-child(n+2){
+                margin-top: 18px;
+            }
+        }
+    }
+    .ant-btn-primary{
+        vertical-align: top;
+        margin-top: 5px;
+        span{
+            color: #FFF;
+        }
+    }
+}
